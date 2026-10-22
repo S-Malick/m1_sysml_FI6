@@ -1,0 +1,366 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "spi::useCases": {
+      "gv": {
+        "gvViews": {
+          "group": {
+            "layout": {
+              "spi::useCases::entreprise": {
+                "x": -226,
+                "y": -49,
+                "parentKey": null,
+                "collapsedW": 245,
+                "collapsedH": 53
+              },
+              "spi::useCases::service_RD": {
+                "x": 128,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 300,
+                "collapsedH": 55
+              },
+              "spi::useCases::prestataire_externe": {
+                "x": 237,
+                "y": -72,
+                "parentKey": null,
+                "collapsedW": 364,
+                "collapsedH": 53
+              },
+              "spi::useCases::conducteurs": {
+                "x": -206,
+                "y": 60,
+                "parentKey": null,
+                "collapsedW": 225,
+                "collapsedH": 72
+              },
+              "spi::useCases::exploitants_parking": {
+                "x": 128,
+                "y": 82,
+                "parentKey": null,
+                "collapsedW": 324,
+                "collapsedH": 58
+              },
+              "spi::useCases::consulterPlaceLibre": {
+                "x": 497,
+                "y": -12,
+                "parentKey": null,
+                "collapsedW": 297,
+                "collapsedH": 95
+              },
+              "spi::useCases::choisirUnePlace": {
+                "x": -277,
+                "y": 189,
+                "parentKey": null,
+                "collapsedW": 267,
+                "collapsedH": 83
+              },
+              "spi::useCases::rejoindreLaPlaceChoisie": {
+                "x": 152,
+                "y": 170,
+                "parentKey": null,
+                "collapsedW": 177,
+                "collapsedH": 72
+              },
+              "spi::useCases::demanderAssistance": {
+                "x": 352,
+                "y": 170,
+                "parentKey": null,
+                "collapsedW": 228,
+                "collapsedH": 76
+              },
+              "spi::useCases::superviserParking": {
+                "x": -143,
+                "y": 309,
+                "parentKey": null,
+                "collapsedW": 237,
+                "collapsedH": 72
+              },
+              "spi::useCases::consulterHistorique": {
+                "x": 160,
+                "y": 258,
+                "parentKey": null,
+                "collapsedW": 258,
+                "collapsedH": 88
+              }
+            },
+            "ports": {},
+            "edgeRoutes": {},
+            "edgeAnchors": {},
+            "edgeGeometry": {}
+          }
+        }
+      },
+      "cv": {
+        "layout": {
+          "spi::useCases::consulterPlaceLibre": {
+            "x": 260,
+            "y": 16,
+            "parentKey": null,
+            "w": 252,
+            "h": 60
+          },
+          "spi::useCases::choisirUnePlace": {
+            "x": 260,
+            "y": 100,
+            "parentKey": null,
+            "w": 252,
+            "h": 60
+          },
+          "spi::useCases::rejoindreLaPlaceChoisie": {
+            "x": 260,
+            "y": 184,
+            "parentKey": null,
+            "w": 252,
+            "h": 60
+          },
+          "spi::useCases::demanderAssistance": {
+            "x": 260,
+            "y": 268,
+            "parentKey": null,
+            "w": 252,
+            "h": 60
+          },
+          "spi::useCases::superviserParking": {
+            "x": 260,
+            "y": 352,
+            "parentKey": null,
+            "w": 252,
+            "h": 60
+          },
+          "spi::useCases::consulterHistorique": {
+            "x": 260,
+            "y": 436,
+            "parentKey": null,
+            "w": 252,
+            "h": 60
+          },
+          "spi::useCases::maintenirLeMateriel": {
+            "x": 306,
+            "y": 615,
+            "parentKey": null,
+            "w": 150,
+            "h": 60
+          },
+          "spi::useCases::evaluerPerformanceSyteme": {
+            "x": 300,
+            "y": 696,
+            "parentKey": null,
+            "w": 150,
+            "h": 60
+          },
+          "spi::useCases::mettreajourLeLogiciel": {
+            "x": 291,
+            "y": 531,
+            "parentKey": null,
+            "w": 150,
+            "h": 60
+          },
+          "spi::useCases::__cv_actor__::actor:conducteurs|": {
+            "x": 608,
+            "y": 138,
+            "parentKey": null,
+            "w": 92,
+            "h": 96
+          },
+          "spi::useCases::__cv_actor__::actor:exploitants_parking|": {
+            "x": 16,
+            "y": 376,
+            "parentKey": null,
+            "w": 148,
+            "h": 96
+          },
+          "spi::useCases::__cv_actor__::actor:entreprise|": {
+            "x": 581,
+            "y": 544,
+            "parentKey": null,
+            "w": 72,
+            "h": 96
+          },
+          "spi::useCases::__cv_actor__::actor:service_RD|": {
+            "x": 583,
+            "y": 690,
+            "parentKey": null,
+            "w": 72,
+            "h": 96
+          },
+          "spi::useCases::__cv_actor__::actor:prestataires_externes|": {
+            "x": 39,
+            "y": 537,
+            "parentKey": null,
+            "w": 72,
+            "h": 96
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "association:spi::useCases::__cv_actor__::actor:conducteurs|->spi::useCases::consulterPlaceLibre": {
+            "sourceHandle": "left",
+            "targetHandle": "right",
+            "path": "M 636,174L 512,46",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 636,
+              "y": 174
+            },
+            "targetPoint": {
+              "x": 512,
+              "y": 46
+            },
+            "label": {
+              "x": 574,
+              "y": 110
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:conducteurs|->spi::useCases::choisirUnePlace": {
+            "sourceHandle": "left",
+            "targetHandle": "right",
+            "path": "M 636,174L 512,130",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 636,
+              "y": 174
+            },
+            "targetPoint": {
+              "x": 512,
+              "y": 130
+            },
+            "label": {
+              "x": 574,
+              "y": 152
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:conducteurs|->spi::useCases::rejoindreLaPlaceChoisie": {
+            "sourceHandle": "left",
+            "targetHandle": "right",
+            "path": "M 636,174L 512,214",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 636,
+              "y": 174
+            },
+            "targetPoint": {
+              "x": 512,
+              "y": 214
+            },
+            "label": {
+              "x": 574,
+              "y": 194
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:conducteurs|->spi::useCases::demanderAssistance": {
+            "sourceHandle": "left",
+            "targetHandle": "right",
+            "path": "M 636,174L 512,298",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 636,
+              "y": 174
+            },
+            "targetPoint": {
+              "x": 512,
+              "y": 298
+            },
+            "label": {
+              "x": 574,
+              "y": 236
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:exploitants_parking|->spi::useCases::superviserParking": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 108,412L 260,382",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 108,
+              "y": 412
+            },
+            "targetPoint": {
+              "x": 260,
+              "y": 382
+            },
+            "label": {
+              "x": 184,
+              "y": 397
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:exploitants_parking|->spi::useCases::consulterHistorique": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 108,412L 260,466",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 108,
+              "y": 412
+            },
+            "targetPoint": {
+              "x": 260,
+              "y": 466
+            },
+            "label": {
+              "x": 184,
+              "y": 439
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:entreprise|->spi::useCases::maintenirLeMateriel": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 617,615L 381,615",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 617,
+              "y": 615
+            },
+            "targetPoint": {
+              "x": 381,
+              "y": 615
+            },
+            "label": {
+              "x": 499,
+              "y": 615
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:service_RD|->spi::useCases::evaluerPerformanceSyteme": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 637,726L 300,726",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 637,
+              "y": 726
+            },
+            "targetPoint": {
+              "x": 300,
+              "y": 726
+            },
+            "label": {
+              "x": 468.5,
+              "y": 726
+            }
+          },
+          "association:spi::useCases::__cv_actor__::actor:prestataires_externes|->spi::useCases::mettreajourLeLogiciel": {
+            "sourceHandle": "left",
+            "targetHandle": "right:0.750",
+            "path": "M 57,573L 430.9519052838329,576",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 57,
+              "y": 573
+            },
+            "targetPoint": {
+              "x": 430.9519052838329,
+              "y": 576
+            },
+            "label": {
+              "x": 243.97595264191645,
+              "y": 574.5
+            }
+          }
+        }
+      }
+    }
+  }
+}
