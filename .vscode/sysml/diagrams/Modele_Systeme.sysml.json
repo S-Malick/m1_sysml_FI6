@@ -1,0 +1,35 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "MonPremierModele::monVelocommande": {
+      "iv": {
+        "layout": {
+          "MonPremierModele::monVelocommande": {
+            "x": -261,
+            "y": -10,
+            "parentKey": null,
+            "w": 216,
+            "h": 128
+          },
+          "MonPremierModele::monVelocommande::mass": {
+            "x": 16,
+            "y": 46,
+            "parentKey": "MonPremierModele::monVelocommande",
+            "collapsedW": 168,
+            "collapsedH": 58
+          }
+        },
+        "ports": {
+          "MonPremierModele::monVelocommande.capteurVitesse": {
+            "side": "right",
+            "offset": 0.62
+          }
+        },
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {}
+      }
+    }
+  }
+}
