@@ -265,6 +265,991 @@
           }
         },
         "gvMode": "group"
+      },
+      "iv": {
+        "layout": {
+          "spi::contexte": {
+            "x": 16,
+            "y": 16,
+            "parentKey": null,
+            "w": 951,
+            "h": 1208
+          },
+          "spi::contexte::entreprise": {
+            "x": 93.5,
+            "y": 48,
+            "parentKey": "spi::contexte",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "spi::contexte::service_RD": {
+            "x": 93.5,
+            "y": 138,
+            "parentKey": "spi::contexte",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "spi::contexte::dataMobilis": {
+            "x": 86.5,
+            "y": 228,
+            "parentKey": "spi::contexte",
+            "collapsedW": 191,
+            "collapsedH": 58
+          },
+          "spi::contexte::mecaMov": {
+            "x": 98,
+            "y": 318,
+            "parentKey": "spi::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "spi::contexte::conducteurs": {
+            "x": 62.5,
+            "y": 408,
+            "parentKey": "spi::contexte",
+            "collapsedW": 239,
+            "collapsedH": 58
+          },
+          "spi::contexte::exploitants_parking": {
+            "x": 22,
+            "y": 498,
+            "parentKey": "spi::contexte",
+            "collapsedW": 320,
+            "collapsedH": 58
+          },
+          "spi::contexte::spi": {
+            "x": 457,
+            "y": 678,
+            "parentKey": "spi::contexte",
+            "collapsedW": 232,
+            "collapsedH": 58
+          },
+          "spi::contexte::voitures": {
+            "x": 83,
+            "y": 588,
+            "parentKey": "spi::contexte",
+            "collapsedW": 198,
+            "collapsedH": 58
+          },
+          "spi::contexte::panneauNumerique": {
+            "x": 28.5,
+            "y": 678,
+            "parentKey": "spi::contexte",
+            "collapsedW": 307,
+            "collapsedH": 58
+          },
+          "spi::contexte::smarphones": {
+            "x": 69.5,
+            "y": 768,
+            "parentKey": "spi::contexte",
+            "collapsedW": 225,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "spi::contexte::ordinateurs": {
+            "x": 62.5,
+            "y": 858,
+            "parentKey": "spi::contexte",
+            "collapsedW": 239,
+            "collapsedH": 58
+          },
+          "spi::contexte::voituriers": {
+            "x": 69.5,
+            "y": 948,
+            "parentKey": "spi::contexte",
+            "collapsedW": 225,
+            "collapsedH": 58
+          },
+          "spi::contexte::box": {
+            "x": 98,
+            "y": 1038,
+            "parentKey": "spi::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "spi::contexte::capteurs": {
+            "x": 83,
+            "y": 1128,
+            "parentKey": "spi::contexte",
+            "collapsedW": 198,
+            "collapsedH": 58
+          },
+          "spi::contexte::reseauSansFil": {
+            "x": 761,
+            "y": 588,
+            "parentKey": "spi::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "spi::contexte::reseauElectrique": {
+            "x": 761,
+            "y": 678,
+            "parentKey": "spi::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "spi::contexte::gps": {
+            "x": 761,
+            "y": 768,
+            "parentKey": "spi::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:spi::contexte::spi->spi::contexte::reseauElectrique": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 705,723 L 777,723",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 705,
+              "y": 723
+            },
+            "targetPoint": {
+              "x": 777,
+              "y": 723
+            },
+            "label": {
+              "x": 741,
+              "y": 723
+            },
+            "points": [
+              {
+                "x": 705,
+                "y": 723
+              },
+              {
+                "x": 777,
+                "y": 723
+              }
+            ],
+            "corner": 8
+          },
+          "connect:spi::contexte::spi->spi::contexte::gps": {
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left",
+            "path": "M 705,737.5 L 733,737.5 Q 741,737.5 741,745.5 L 741,805 Q 741,813 749,813 L 777,813",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 705,
+              "y": 737.5
+            },
+            "targetPoint": {
+              "x": 777,
+              "y": 813
+            },
+            "label": {
+              "x": 741,
+              "y": 775.25
+            },
+            "points": [
+              {
+                "x": 705,
+                "y": 737.5
+              },
+              {
+                "x": 741,
+                "y": 737.5
+              },
+              {
+                "x": 741,
+                "y": 813
+              },
+              {
+                "x": 777,
+                "y": 813
+              }
+            ],
+            "corner": 8
+          },
+          "connect:spi::contexte::spi->spi::contexte::reseauSansFil": {
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left",
+            "path": "M 705,708.5 L 733,708.5 Q 741,708.5 741,700.5 L 741,641 Q 741,633 749,633 L 777,633",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 705,
+              "y": 708.5
+            },
+            "targetPoint": {
+              "x": 777,
+              "y": 633
+            },
+            "label": {
+              "x": 741,
+              "y": 670.75
+            },
+            "points": [
+              {
+                "x": 705,
+                "y": 708.5
+              },
+              {
+                "x": 741,
+                "y": 708.5
+              },
+              {
+                "x": 741,
+                "y": 633
+              },
+              {
+                "x": 777,
+                "y": 633
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::entreprise->spi::contexte::spi:integre": {
+            "caption": {
+              "x": 557,
+              "y": 408,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "integre"
+              ],
+              "text": "integre",
+              "source": {
+                "x": 198,
+                "y": 122
+              },
+              "target": {
+                "x": 589,
+                "y": 694
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 198,122 L 198,132 Q 198,140 206,140 L 581,140 Q 589,140 589,148 L 589,694",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 198,
+              "y": 122
+            },
+            "targetPoint": {
+              "x": 589,
+              "y": 694
+            },
+            "label": {
+              "x": 589,
+              "y": 417
+            },
+            "points": [
+              {
+                "x": 198,
+                "y": 122
+              },
+              {
+                "x": 198,
+                "y": 140
+              },
+              {
+                "x": 589,
+                "y": 140
+              },
+              {
+                "x": 589,
+                "y": 694
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::service_RD->spi::contexte::spi:elabore": {
+            "caption": {
+              "x": 615,
+              "y": 453,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "elabore"
+              ],
+              "text": "elabore",
+              "source": {
+                "x": 198,
+                "y": 212
+              },
+              "target": {
+                "x": 647,
+                "y": 694
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top:0.750",
+            "path": "M 198,212 L 198,222 Q 198,230 206,230 L 639,230 Q 647,230 647,238 L 647,694",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 198,
+              "y": 212
+            },
+            "targetPoint": {
+              "x": 647,
+              "y": 694
+            },
+            "label": {
+              "x": 647,
+              "y": 462
+            },
+            "points": [
+              {
+                "x": 198,
+                "y": 212
+              },
+              {
+                "x": 198,
+                "y": 230
+              },
+              {
+                "x": 647,
+                "y": 230
+              },
+              {
+                "x": 647,
+                "y": 694
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::dataMobilis->spi::contexte::spi:concoit": {
+            "caption": {
+              "x": 499,
+              "y": 498,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "concoit"
+              ],
+              "text": "concoit",
+              "source": {
+                "x": 198,
+                "y": 302
+              },
+              "target": {
+                "x": 531,
+                "y": 694
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top:0.250",
+            "path": "M 198,302 L 198,312 Q 198,320 206,320 L 523,320 Q 531,320 531,328 L 531,694",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 198,
+              "y": 302
+            },
+            "targetPoint": {
+              "x": 531,
+              "y": 694
+            },
+            "label": {
+              "x": 531,
+              "y": 507
+            },
+            "points": [
+              {
+                "x": 198,
+                "y": 302
+              },
+              {
+                "x": 198,
+                "y": 320
+              },
+              {
+                "x": 531,
+                "y": 320
+              },
+              {
+                "x": 531,
+                "y": 694
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::mecaMov->spi::contexte::spi:concoit": {
+            "caption": {
+              "x": 435,
+              "y": 418.0165132452548,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "concoit"
+              ],
+              "text": "concoit",
+              "source": {
+                "x": 282,
+                "y": 363
+              },
+              "target": {
+                "x": 473,
+                "y": 701.25
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.125",
+            "path": "M 282,363 L 459,363 Q 467,363 467,371 L 467,698.25 Q 467,701.25 470,701.25 L 473,701.25",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 282,
+              "y": 363
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 701.25
+            },
+            "label": {
+              "x": 467,
+              "y": 532.125
+            },
+            "points": [
+              {
+                "x": 282,
+                "y": 363
+              },
+              {
+                "x": 467,
+                "y": 363
+              },
+              {
+                "x": 467,
+                "y": 701.25
+              },
+              {
+                "x": 473,
+                "y": 701.25
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::conducteurs->spi::contexte::spi:utilise": {
+            "caption": {
+              "x": 399.5,
+              "y": 444,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "utilise"
+              ],
+              "text": "utilise",
+              "source": {
+                "x": 317.5,
+                "y": 453
+              },
+              "target": {
+                "x": 473,
+                "y": 704.904
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.188",
+            "path": "M 317.5,453 L 443,453 Q 451,453 451,461 L 451,696.904 Q 451,704.904 459,704.904 L 473,704.904",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 317.5,
+              "y": 453
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 704.904
+            },
+            "label": {
+              "x": 451,
+              "y": 578.952
+            },
+            "points": [
+              {
+                "x": 317.5,
+                "y": 453
+              },
+              {
+                "x": 451,
+                "y": 453
+              },
+              {
+                "x": 451,
+                "y": 704.904
+              },
+              {
+                "x": 473,
+                "y": 704.904
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::exploitants_parking->spi::contexte::spi:surveille": {
+            "caption": {
+              "x": 374,
+              "y": 534,
+              "width": 76,
+              "height": 18,
+              "lines": [
+                "surveille"
+              ],
+              "text": "surveille",
+              "source": {
+                "x": 358,
+                "y": 543
+              },
+              "target": {
+                "x": 473,
+                "y": 708.5
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.250",
+            "path": "M 358,543 L 427,543 Q 435,543 435,551 L 435,700.5 Q 435,708.5 443,708.5 L 473,708.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 358,
+              "y": 543
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 708.5
+            },
+            "label": {
+              "x": 435,
+              "y": 625.75
+            },
+            "points": [
+              {
+                "x": 358,
+                "y": 543
+              },
+              {
+                "x": 435,
+                "y": 543
+              },
+              {
+                "x": 435,
+                "y": 708.5
+              },
+              {
+                "x": 473,
+                "y": 708.5
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::voitures->spi::contexte::spi:gare": {
+            "caption": {
+              "x": 348.5,
+              "y": 667.0165132452548,
+              "width": 45,
+              "height": 18,
+              "lines": [
+                "gare"
+              ],
+              "text": "gare",
+              "source": {
+                "x": 297,
+                "y": 633
+              },
+              "target": {
+                "x": 473,
+                "y": 715.75
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.375",
+            "path": "M 297,633 L 363,633 Q 371,633 371,641 L 371,707.75 Q 371,715.75 379,715.75 L 473,715.75",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 297,
+              "y": 633
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 715.75
+            },
+            "label": {
+              "x": 422,
+              "y": 715.75
+            },
+            "points": [
+              {
+                "x": 297,
+                "y": 633
+              },
+              {
+                "x": 371,
+                "y": 633
+              },
+              {
+                "x": 371,
+                "y": 715.75
+              },
+              {
+                "x": 473,
+                "y": 715.75
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::panneauNumerique->spi::contexte::spi:affiche": {
+            "caption": {
+              "x": 397.5,
+              "y": 714,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "affiche"
+              ],
+              "text": "affiche",
+              "source": {
+                "x": 351.5,
+                "y": 723
+              },
+              "target": {
+                "x": 473,
+                "y": 723
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 3
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 351.5,723 L 473,723",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 351.5,
+              "y": 723
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 723
+            },
+            "label": {
+              "x": 412.25,
+              "y": 723
+            },
+            "points": [
+              {
+                "x": 351.5,
+                "y": 723
+              },
+              {
+                "x": 473,
+                "y": 723
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::smarphones->spi::contexte::spi:repere": {
+            "caption": {
+              "x": 323.5,
+              "y": 804,
+              "width": 58,
+              "height": 18,
+              "lines": [
+                "repere"
+              ],
+              "text": "repere",
+              "source": {
+                "x": 310.5,
+                "y": 813
+              },
+              "target": {
+                "x": 473,
+                "y": 730.25
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.625",
+            "path": "M 310.5,813 L 369,813 Q 377,813 377,805 L 377,738.25 Q 377,730.25 385,730.25 L 473,730.25",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 310.5,
+              "y": 813
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 730.25
+            },
+            "label": {
+              "x": 425,
+              "y": 730.25
+            },
+            "points": [
+              {
+                "x": 310.5,
+                "y": 813
+              },
+              {
+                "x": 377,
+                "y": 813
+              },
+              {
+                "x": 377,
+                "y": 730.25
+              },
+              {
+                "x": 473,
+                "y": 730.25
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::ordinateurs->spi::contexte::spi:controle": {
+            "caption": {
+              "x": 324.5,
+              "y": 894,
+              "width": 70,
+              "height": 18,
+              "lines": [
+                "controle"
+              ],
+              "text": "controle",
+              "source": {
+                "x": 317.5,
+                "y": 903
+              },
+              "target": {
+                "x": 473,
+                "y": 737.5
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.750",
+            "path": "M 317.5,903 L 379,903 Q 387,903 387,895 L 387,745.5 Q 387,737.5 395,737.5 L 473,737.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 317.5,
+              "y": 903
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 737.5
+            },
+            "label": {
+              "x": 387,
+              "y": 820.25
+            },
+            "points": [
+              {
+                "x": 317.5,
+                "y": 903
+              },
+              {
+                "x": 387,
+                "y": 903
+              },
+              {
+                "x": 387,
+                "y": 737.5
+              },
+              {
+                "x": 473,
+                "y": 737.5
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::voituriers->spi::contexte::spi:deplace": {
+            "caption": {
+              "x": 344.5,
+              "y": 984,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "deplace"
+              ],
+              "text": "deplace",
+              "source": {
+                "x": 310.5,
+                "y": 993
+              },
+              "target": {
+                "x": 473,
+                "y": 744.75
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.875",
+            "path": "M 310.5,993 L 395,993 Q 403,993 403,985 L 403,752.75 Q 403,744.75 411,744.75 L 473,744.75",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 310.5,
+              "y": 993
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 744.75
+            },
+            "label": {
+              "x": 403,
+              "y": 868.875
+            },
+            "points": [
+              {
+                "x": 310.5,
+                "y": 993
+              },
+              {
+                "x": 403,
+                "y": 993
+              },
+              {
+                "x": 403,
+                "y": 744.75
+              },
+              {
+                "x": 473,
+                "y": 744.75
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::box->spi::contexte::spi:contient": {
+            "caption": {
+              "x": 384,
+              "y": 1009.9834867547452,
+              "width": 70,
+              "height": 18,
+              "lines": [
+                "contient"
+              ],
+              "text": "contient",
+              "source": {
+                "x": 282,
+                "y": 1083
+              },
+              "target": {
+                "x": 473,
+                "y": 697.654
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.063",
+            "path": "M 282,1083 L 411,1083 Q 419,1083 419,1075 L 419,705.654 Q 419,697.654 427,697.654 L 473,697.654",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 282,
+              "y": 1083
+            },
+            "targetPoint": {
+              "x": 473,
+              "y": 697.654
+            },
+            "label": {
+              "x": 419,
+              "y": 890.327
+            },
+            "points": [
+              {
+                "x": 282,
+                "y": 1083
+              },
+              {
+                "x": 419,
+                "y": 1083
+              },
+              {
+                "x": 419,
+                "y": 697.654
+              },
+              {
+                "x": 473,
+                "y": 697.654
+              }
+            ],
+            "corner": 8
+          },
+          "flow:spi::contexte::capteurs->spi::contexte::spi:detecte": {
+            "caption": {
+              "x": 361.5,
+              "y": 1117,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "detecte"
+              ],
+              "text": "detecte",
+              "source": {
+                "x": 198,
+                "y": 1144
+              },
+              "target": {
+                "x": 589,
+                "y": 752
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "top",
+            "targetHandle": "bottom",
+            "path": "M 198,1144 L 198,1134 Q 198,1126 206,1126 L 581,1126 Q 589,1126 589,1118 L 589,752",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 198,
+              "y": 1144
+            },
+            "targetPoint": {
+              "x": 589,
+              "y": 752
+            },
+            "label": {
+              "x": 393.5,
+              "y": 1126
+            },
+            "points": [
+              {
+                "x": 198,
+                "y": 1144
+              },
+              {
+                "x": 198,
+                "y": 1126
+              },
+              {
+                "x": 589,
+                "y": 1126
+              },
+              {
+                "x": 589,
+                "y": 752
+              }
+            ],
+            "corner": 8
+          }
+        }
       }
     }
   }
