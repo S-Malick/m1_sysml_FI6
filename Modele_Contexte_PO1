@@ -1,0 +1,31 @@
+package spi {
+    private import ScalarValues::Boolean;
+    package parts{
+        /*Acteurs */
+        part def Conducteurs;
+        
+
+        /*Contexte */
+        part def SystemeParkingIntelligent;
+        part def Voitures;
+        part def Smarphones;
+        part def ReseauSansFil;
+    }
+
+    private import spi::parts::*;
+
+    part def contexte{
+ 
+        part conducteurs:Conducteurs[*];
+        part spi:SystemeParkingIntelligent;
+        part voitures:Voitures[*];
+        part smarphones:Smarphones[*];
+   
+        flow utilise from conducteurs to spi;
+        flow surveille from exploitants_parking to spi;
+        flow gare from voitures to spi;
+        flow repere from smarphones to spi;
+
+        connect spi to reseauSansFil;
+    }
+}
