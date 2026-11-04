@@ -1,0 +1,973 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "sosyValet::ContextePhase1": {
+      "iv": {
+        "layout": {
+          "sosyValet::ContextePhase1": {
+            "x": 16,
+            "y": -5.721009500799411,
+            "parentKey": null,
+            "w": 1065,
+            "h": 394.04706650559586
+          },
+          "sosyValet::ContextePhase1::conducteur": {
+            "x": 36.34159701589981,
+            "y": 147.94790231479828,
+            "parentKey": "sosyValet::ContextePhase1",
+            "collapsedW": 177,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "sosyValet::ContextePhase1::sosyValet": {
+            "x": 531.5449565771007,
+            "y": 241.82017369159695,
+            "parentKey": "sosyValet::ContextePhase1",
+            "collapsedW": 168,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "sosyValet::ContextePhase1::smartPhone": {
+            "x": 264.79789823370055,
+            "y": 28,
+            "parentKey": "sosyValet::ContextePhase1",
+            "collapsedW": 177,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "sosyValet::ContextePhase1::reseauSansFil": {
+            "x": 789.7978982337005,
+            "y": 132.30252375199848,
+            "parentKey": "sosyValet::ContextePhase1",
+            "collapsedW": 218,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "sosyValet::ContextePhase1::reseauElectrique": {
+            "x": 42.14537856279978,
+            "y": 256.20084397139806,
+            "parentKey": "sosyValet::ContextePhase1",
+            "collapsedW": 168,
+            "collapsedH": 58,
+            "placedByHand": true
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:sosyValet::ContextePhase1::smartPhone->sosyValet::ContextePhase1::reseauSansFil": {
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left:0.250",
+            "path": "M 457.798,36.779 L 623.798,36.779 Q 631.798,36.779 631.798,44.779 L 631.798,133.082 Q 631.798,141.082 639.798,141.082 L 805.798,141.082",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 457.79789823370055,
+              "y": 36.77899049920059
+            },
+            "targetPoint": {
+              "x": 805.7978982337005,
+              "y": 141.08151425119905
+            },
+            "label": {
+              "x": 544.7978982337005,
+              "y": 36.77899049920059
+            },
+            "points": [
+              {
+                "x": 457.79789823370055,
+                "y": 36.77899049920059
+              },
+              {
+                "x": 631.7978982337005,
+                "y": 36.77899049920059
+              },
+              {
+                "x": 631.7978982337005,
+                "y": 141.08151425119905
+              },
+              {
+                "x": 805.7978982337005,
+                "y": 141.08151425119905
+              }
+            ],
+            "corner": 8
+          },
+          "connect:sosyValet::ContextePhase1::sosyValet->sosyValet::ContextePhase1::reseauSansFil": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 715.545,265.099 L 752.671,265.099 Q 760.671,265.099 760.671,257.099 L 760.671,163.582 Q 760.671,155.582 768.671,155.582 L 805.798,155.582",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 715.5449565771007,
+              "y": 265.0991641907975
+            },
+            "targetPoint": {
+              "x": 805.7978982337005,
+              "y": 155.58151425119905
+            },
+            "label": {
+              "x": 760.6714274054007,
+              "y": 210.3403392209983
+            },
+            "points": [
+              {
+                "x": 715.5449565771007,
+                "y": 265.0991641907975
+              },
+              {
+                "x": 760.6714274054007,
+                "y": 265.0991641907975
+              },
+              {
+                "x": 760.6714274054007,
+                "y": 155.58151425119905
+              },
+              {
+                "x": 805.7978982337005,
+                "y": 155.58151425119905
+              }
+            ],
+            "corner": 8
+          },
+          "connect:sosyValet::ContextePhase1::sosyValet->sosyValet::ContextePhase1::reseauElectrique": {
+            "sourceHandle": "left:0.750",
+            "targetHandle": "right",
+            "path": "M 547.545,279.599 L 226.145,279.48",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 547.5449565771007,
+              "y": 279.5991641907975
+            },
+            "targetPoint": {
+              "x": 226.14537856279978,
+              "y": 279.47983447059863
+            },
+            "label": {
+              "x": 386.84516756995026,
+              "y": 279.53949933069805
+            },
+            "points": [
+              {
+                "x": 547.5449565771007,
+                "y": 279.5991641907975
+              },
+              {
+                "x": 226.14537856279978,
+                "y": 279.47983447059863
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase1::conducteur->sosyValet::ContextePhase1::smartPhone:utilise": {
+            "caption": {
+              "x": 223.07,
+              "y": 102.25294165659972,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "utilise"
+              ],
+              "text": "utilise",
+              "source": {
+                "x": 229.34159701589982,
+                "y": 171.22689281399886
+              },
+              "target": {
+                "x": 280.79789823370055,
+                "y": 51.27899049920059
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 229.342,171.227 L 247.07,171.227 Q 255.07,171.227 255.07,163.227 L 255.07,59.279 Q 255.07,51.279 263.07,51.279 L 280.798,51.279",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 229.34159701589982,
+              "y": 171.22689281399886
+            },
+            "targetPoint": {
+              "x": 280.79789823370055,
+              "y": 51.27899049920059
+            },
+            "label": {
+              "x": 255.0697476248002,
+              "y": 111.25294165659972
+            },
+            "points": [
+              {
+                "x": 229.34159701589982,
+                "y": 171.22689281399886
+              },
+              {
+                "x": 255.0697476248002,
+                "y": 171.22689281399886
+              },
+              {
+                "x": 255.0697476248002,
+                "y": 51.27899049920059
+              },
+              {
+                "x": 280.79789823370055,
+                "y": 51.27899049920059
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase1::smartPhone->sosyValet::ContextePhase1::sosyValet:consulte": {
+            "caption": {
+              "x": 464.5992568612761,
+              "y": 43.43889242635334,
+              "width": 70,
+              "height": 18,
+              "lines": [
+                "consulte"
+              ],
+              "text": "consulte",
+              "source": {
+                "x": 457.79789823370055,
+                "y": 51.27899049920059
+              },
+              "target": {
+                "x": 547.5449565771007,
+                "y": 250.59916419079752
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 1
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.250",
+            "path": "M 457.798,51.279 L 494.671,51.279 Q 502.671,51.279 502.671,59.279 L 502.671,242.599 Q 502.671,250.599 510.671,250.599 L 547.545,250.599",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 457.79789823370055,
+              "y": 51.27899049920059
+            },
+            "targetPoint": {
+              "x": 547.5449565771007,
+              "y": 250.59916419079752
+            },
+            "label": {
+              "x": 502.67142740540066,
+              "y": 150.93907734499905
+            },
+            "points": [
+              {
+                "x": 457.79789823370055,
+                "y": 51.27899049920059
+              },
+              {
+                "x": 502.67142740540066,
+                "y": 51.27899049920059
+              },
+              {
+                "x": 502.67142740540066,
+                "y": 250.59916419079752
+              },
+              {
+                "x": 547.5449565771007,
+                "y": 250.59916419079752
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase1::smartPhone->sosyValet::ContextePhase1::sosyValet:reserve": {
+            "caption": {
+              "x": 466.5110264905097,
+              "y": 256.099,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "reserve"
+              ],
+              "text": "reserve",
+              "source": {
+                "x": 457.79789823370055,
+                "y": 65.77899049920059
+              },
+              "target": {
+                "x": 547.5449565771007,
+                "y": 265.0991641907975
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left",
+            "path": "M 457.798,65.779 L 478.671,65.779 Q 486.671,65.779 486.671,73.779 L 486.671,257.099 Q 486.671,265.099 494.671,265.099 L 547.545,265.099",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 457.79789823370055,
+              "y": 65.77899049920059
+            },
+            "targetPoint": {
+              "x": 547.5449565771007,
+              "y": 265.0991641907975
+            },
+            "label": {
+              "x": 486.67142740540066,
+              "y": 165.43907734499905
+            },
+            "points": [
+              {
+                "x": 457.79789823370055,
+                "y": 65.77899049920059
+              },
+              {
+                "x": 486.67142740540066,
+                "y": 65.77899049920059
+              },
+              {
+                "x": 486.67142740540066,
+                "y": 265.0991641907975
+              },
+              {
+                "x": 547.5449565771007,
+                "y": 265.0991641907975
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase1::sosyValet->sosyValet::ContextePhase1::smartPhone:informe": {
+            "caption": {
+              "x": 477.33197350949024,
+              "y": 20.529,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "informe"
+              ],
+              "text": "informe",
+              "source": {
+                "x": 547.5449565771007,
+                "y": 243.34916419079752
+              },
+              "target": {
+                "x": 457.79789823370055,
+                "y": 29.52899049920059
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 1
+            },
+            "sourceHandle": "left:0.125",
+            "targetHandle": "right:0.125",
+            "path": "M 547.545,243.349 L 526.671,243.349 Q 518.671,243.349 518.671,235.349 L 518.671,37.529 Q 518.671,29.529 510.671,29.529 L 457.798,29.529",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 547.5449565771007,
+              "y": 243.34916419079752
+            },
+            "targetPoint": {
+              "x": 457.79789823370055,
+              "y": 29.52899049920059
+            },
+            "label": {
+              "x": 518.6714274054007,
+              "y": 136.43907734499905
+            },
+            "points": [
+              {
+                "x": 547.5449565771007,
+                "y": 243.34916419079752
+              },
+              {
+                "x": 518.6714274054007,
+                "y": 243.34916419079752
+              },
+              {
+                "x": 518.6714274054007,
+                "y": 29.52899049920059
+              },
+              {
+                "x": 457.79789823370055,
+                "y": 29.52899049920059
+              }
+            ],
+            "corner": 8
+          }
+        }
+      }
+    },
+    "sosyValet::ContextePhase2": {
+      "iv": {
+        "layout": {
+          "sosyValet::ContextePhase2": {
+            "x": 16,
+            "y": 16,
+            "parentKey": null,
+            "w": 1298,
+            "h": 318
+          },
+          "sosyValet::ContextePhase2::conducteur": {
+            "x": 542,
+            "y": 45,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 177,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "sosyValet::ContextePhase2::sosyValet": {
+            "x": 262,
+            "y": 48,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "sosyValet::ContextePhase2::voiture": {
+            "x": 813.5,
+            "y": 48,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "sosyValet::ContextePhase2::smartPhone": {
+            "x": 811,
+            "y": 244,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 177,
+            "collapsedH": 58,
+            "placedByHand": true
+          },
+          "sosyValet::ContextePhase2::reseauSansFil": {
+            "x": 1058,
+            "y": 48,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 218,
+            "collapsedH": 58
+          },
+          "sosyValet::ContextePhase2::reseauElectrique": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "sosyValet::ContextePhase2::entreeParking": {
+            "x": 513.5,
+            "y": 160,
+            "parentKey": "sosyValet::ContextePhase2",
+            "collapsedW": 168,
+            "collapsedH": 58,
+            "placedByHand": true
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:sosyValet::ContextePhase2::sosyValet->sosyValet::ContextePhase2::entreeParking": {
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left",
+            "path": "M 446,107.5 L 472.833,107.5 Q 480.833,107.5 480.833,115.5 L 480.833,197 Q 480.833,205 488.833,205 L 529.5,205",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 446,
+              "y": 107.5
+            },
+            "targetPoint": {
+              "x": 529.5,
+              "y": 205
+            },
+            "label": {
+              "x": 480.8333333333333,
+              "y": 156.25
+            },
+            "points": [
+              {
+                "x": 446,
+                "y": 107.5
+              },
+              {
+                "x": 480.8333333333333,
+                "y": 107.5
+              },
+              {
+                "x": 480.8333333333333,
+                "y": 205
+              },
+              {
+                "x": 529.5,
+                "y": 205
+              }
+            ],
+            "corner": 8
+          },
+          "connect:sosyValet::ContextePhase2::smartPhone->sosyValet::ContextePhase2::reseauSansFil": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 1004,289 L 1031,289 Q 1039,289 1039,281 L 1039,101 Q 1039,93 1047,93 L 1074,93",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 1004,
+              "y": 289
+            },
+            "targetPoint": {
+              "x": 1074,
+              "y": 93
+            },
+            "label": {
+              "x": 1039,
+              "y": 191
+            },
+            "points": [
+              {
+                "x": 1004,
+                "y": 289
+              },
+              {
+                "x": 1039,
+                "y": 289
+              },
+              {
+                "x": 1039,
+                "y": 93
+              },
+              {
+                "x": 1074,
+                "y": 93
+              }
+            ],
+            "corner": 8
+          },
+          "connect:sosyValet::ContextePhase2::sosyValet->sosyValet::ContextePhase2::reseauSansFil": {
+            "sourceHandle": "right:0.125",
+            "targetHandle": "left:0.250",
+            "path": "M 446,71.25 L 456,71.25 Q 464,71.25 464,63.25 L 464,58 Q 464,50 472,50 L 1048,50 Q 1056,50 1056,58 L 1056,70.5 Q 1056,78.5 1064,78.5 L 1074,78.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 446,
+              "y": 71.25
+            },
+            "targetPoint": {
+              "x": 1074,
+              "y": 78.5
+            },
+            "label": {
+              "x": 760,
+              "y": 50
+            },
+            "points": [
+              {
+                "x": 446,
+                "y": 71.25
+              },
+              {
+                "x": 464,
+                "y": 71.25
+              },
+              {
+                "x": 464,
+                "y": 50
+              },
+              {
+                "x": 1056,
+                "y": 50
+              },
+              {
+                "x": 1056,
+                "y": 78.5
+              },
+              {
+                "x": 1074,
+                "y": 78.5
+              }
+            ],
+            "corner": 8
+          },
+          "connect:sosyValet::ContextePhase2::sosyValet->sosyValet::ContextePhase2::reseauElectrique": {
+            "sourceHandle": "left",
+            "targetHandle": "right",
+            "path": "M 278,93 L 206,93",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 278,
+              "y": 93
+            },
+            "targetPoint": {
+              "x": 206,
+              "y": 93
+            },
+            "label": {
+              "x": 242,
+              "y": 93
+            },
+            "points": [
+              {
+                "x": 278,
+                "y": 93
+              },
+              {
+                "x": 206,
+                "y": 93
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase2::conducteur->sosyValet::ContextePhase2::voiture:conduit": {
+            "caption": {
+              "x": 745,
+              "y": 66.5,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "conduit"
+              ],
+              "text": "conduit",
+              "source": {
+                "x": 735,
+                "y": 75.5
+              },
+              "target": {
+                "x": 829.5,
+                "y": 78.5
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left:0.250",
+            "path": "M 735,75.5 L 780.75,75.5 Q 782.25,75.5 782.25,77 L 782.25,77 Q 782.25,78.5 783.75,78.5 L 829.5,78.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 735,
+              "y": 75.5
+            },
+            "targetPoint": {
+              "x": 829.5,
+              "y": 78.5
+            },
+            "label": {
+              "x": 758.625,
+              "y": 75.5
+            },
+            "points": [
+              {
+                "x": 735,
+                "y": 75.5
+              },
+              {
+                "x": 782.25,
+                "y": 75.5
+              },
+              {
+                "x": 782.25,
+                "y": 78.5
+              },
+              {
+                "x": 829.5,
+                "y": 78.5
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase2::voiture->sosyValet::ContextePhase2::sosyValet:detecte": {
+            "caption": {
+              "x": 619.1666666666666,
+              "y": 127,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "detecte"
+              ],
+              "text": "detecte",
+              "source": {
+                "x": 829.5,
+                "y": 93
+              },
+              "target": {
+                "x": 446,
+                "y": 100.25
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "left",
+            "targetHandle": "right:0.625",
+            "path": "M 829.5,93 L 819.5,93 Q 811.5,93 811.5,101 L 811.5,128 Q 811.5,136 803.5,136 L 498.833,136 Q 490.833,136 490.833,128 L 490.833,108.25 Q 490.833,100.25 482.833,100.25 L 446,100.25",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 829.5,
+              "y": 93
+            },
+            "targetPoint": {
+              "x": 446,
+              "y": 100.25
+            },
+            "label": {
+              "x": 651.1666666666666,
+              "y": 136
+            },
+            "points": [
+              {
+                "x": 829.5,
+                "y": 93
+              },
+              {
+                "x": 811.5,
+                "y": 93
+              },
+              {
+                "x": 811.5,
+                "y": 136
+              },
+              {
+                "x": 490.8333333333333,
+                "y": 136
+              },
+              {
+                "x": 490.8333333333333,
+                "y": 100.25
+              },
+              {
+                "x": 446,
+                "y": 100.25
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase2::sosyValet->sosyValet::ContextePhase2::conducteur:lit": {
+            "caption": {
+              "x": 499.8525226615417,
+              "y": 92,
+              "width": 39,
+              "height": 18,
+              "lines": [
+                "lit"
+              ],
+              "text": "lit",
+              "source": {
+                "x": 446,
+                "y": 85.75
+              },
+              "target": {
+                "x": 558,
+                "y": 90
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right:0.375",
+            "targetHandle": "left",
+            "path": "M 446,85.75 L 499.875,85.75 Q 502,85.75 502,87.875 L 502,87.875 Q 502,90 504.125,90 L 558,90",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 446,
+              "y": 85.75
+            },
+            "targetPoint": {
+              "x": 558,
+              "y": 90
+            },
+            "label": {
+              "x": 474,
+              "y": 85.75
+            },
+            "points": [
+              {
+                "x": 446,
+                "y": 85.75
+              },
+              {
+                "x": 502,
+                "y": 85.75
+              },
+              {
+                "x": 502,
+                "y": 90
+              },
+              {
+                "x": 558,
+                "y": 90
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase2::conducteur->sosyValet::ContextePhase2::sosyValet:choisit": {
+            "caption": {
+              "x": 484,
+              "y": 66.5,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "choisit"
+              ],
+              "text": "choisit",
+              "source": {
+                "x": 558,
+                "y": 75.5
+              },
+              "target": {
+                "x": 446,
+                "y": 78.5
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "left:0.250",
+            "targetHandle": "right:0.250",
+            "path": "M 558,75.5 L 503.5,75.5 Q 502,75.5 502,77 L 502,77 Q 502,78.5 500.5,78.5 L 446,78.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 558,
+              "y": 75.5
+            },
+            "targetPoint": {
+              "x": 446,
+              "y": 78.5
+            },
+            "label": {
+              "x": 530,
+              "y": 75.5
+            },
+            "points": [
+              {
+                "x": 558,
+                "y": 75.5
+              },
+              {
+                "x": 502,
+                "y": 75.5
+              },
+              {
+                "x": 502,
+                "y": 78.5
+              },
+              {
+                "x": 446,
+                "y": 78.5
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase2::conducteur->sosyValet::ContextePhase2::smartPhone:utilise": {
+            "caption": {
+              "x": 749,
+              "y": 173.25,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "utilise"
+              ],
+              "text": "utilise",
+              "source": {
+                "x": 735,
+                "y": 90
+              },
+              "target": {
+                "x": 827,
+                "y": 274.5
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left:0.250",
+            "path": "M 735,90 L 773,90 Q 781,90 781,98 L 781,266.5 Q 781,274.5 789,274.5 L 827,274.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 735,
+              "y": 90
+            },
+            "targetPoint": {
+              "x": 827,
+              "y": 274.5
+            },
+            "label": {
+              "x": 781,
+              "y": 182.25
+            },
+            "points": [
+              {
+                "x": 735,
+                "y": 90
+              },
+              {
+                "x": 781,
+                "y": 90
+              },
+              {
+                "x": 781,
+                "y": 274.5
+              },
+              {
+                "x": 827,
+                "y": 274.5
+              }
+            ],
+            "corner": 8
+          },
+          "flow:sosyValet::ContextePhase2::sosyValet->sosyValet::ContextePhase2::smartPhone:informe": {
+            "caption": {
+              "x": 613.5,
+              "y": 280,
+              "width": 64,
+              "height": 18,
+              "lines": [
+                "informe"
+              ],
+              "text": "informe",
+              "source": {
+                "x": 446,
+                "y": 93
+              },
+              "target": {
+                "x": 827,
+                "y": 289
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 446,93 L 456,93 Q 464,93 464,101 L 464,281 Q 464,289 472,289 L 827,289",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 446,
+              "y": 93
+            },
+            "targetPoint": {
+              "x": 827,
+              "y": 289
+            },
+            "label": {
+              "x": 645.5,
+              "y": 289
+            },
+            "points": [
+              {
+                "x": 446,
+                "y": 93
+              },
+              {
+                "x": 464,
+                "y": 93
+              },
+              {
+                "x": 464,
+                "y": 289
+              },
+              {
+                "x": 827,
+                "y": 289
+              }
+            ],
+            "corner": 8
+          }
+        }
+      }
+    }
+  }
+}
