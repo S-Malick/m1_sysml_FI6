@@ -1,6 +1,7 @@
 package spi{
-    private import ScalarValues::Boolean;
     action arriverEtChoisirLeMode {
+        private import ScalarValues::Boolean;
+
         attribute vehiculeArrive : Boolean;
         attribute modeAutomatique : Boolean;
         attribute modeManuel : Boolean;
@@ -20,8 +21,8 @@ package spi{
         then proposerModesStationnement;
         then selectionnerMode;
         then decide decide0;
-            if modeAutomatique then enregistrerModeChoisi;
-            if modeManuel then enregistrerModeChoisi;
+        if modeAutomatique then enregistrerModeChoisi;
+        if modeManuel then enregistrerModeChoisi;
         succession enregistrerModeChoisi then terminerArrivee;
         then done;
     }
