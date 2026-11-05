@@ -1,4 +1,4 @@
-package sosyValetArriverModeFlux {
+package spi{
     private import ScalarValues::Boolean;
     action arriverEtChoisirLeMode {
         attribute vehiculeArrive : Boolean;

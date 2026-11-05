@@ -1,12 +1,10 @@
 package sosyValet {
     private import ScalarValues::Boolean;
     package parts {
-        /* acteurs */
         part def Conducteur;
         part def ExploitantParking;
         part def Pieton;
  
-        /* contexte */
         part def SosyValet;
         part def Voiture;
         part def VoitureElectrique;
@@ -17,7 +15,6 @@ package sosyValet {
  
     private import sosyValet::parts::*;
  
-    /* Phase 1 : Préparer sa venue */
     part def ContextePhase1 {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -35,7 +32,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 2 : Arriver et choisir le mode */
     part def ContextePhase2 {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -58,7 +54,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 3a : Se garer soi-même (mode libre) */
     part def ContextePhase3a {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -83,7 +78,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 3b : Déposer son véhicule (mode voiturier, F1) */
     part def ContextePhase3b {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -111,7 +105,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 4 : Stationner et recharger (F2) */
     part def ContextePhase4 {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -137,8 +130,6 @@ package sosyValet {
         connect sosyValet to reseauSansFil;
         connect sosyValet to reseauElectrique;
     }
- 
-    /* Phase 5 : Retourner à pied à son véhicule */
     part def ContextePhase5 {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -162,7 +153,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 6 : Récupérer son véhicule et sortir */
     part def ContextePhase6 {
         part conducteur: Conducteur;
         part sosyValet: SosyValet;
@@ -189,7 +179,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 7 : Superviser le parking */
     part def ContextePhase7 {
         part exploitant: ExploitantParking;
         part sosyValet: SosyValet;
@@ -209,7 +198,6 @@ package sosyValet {
         connect sosyValet to reseauElectrique;
     }
  
-    /* Phase 8 : Entretenir le système */
     part def ContextePhase8 {
         part exploitant: ExploitantParking;
         part sosyValet: SosyValet;

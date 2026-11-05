@@ -1,12 +1,10 @@
 package sosyValetUseCases {
     private import ScalarValues::Boolean;
     package parts {
-        /* acteurs */
         part def Utilisateur;
         part def Conducteur :> Utilisateur;
         part def ExploitantParking :> Utilisateur;
  
-        /* contexte */
         part def SosyValet;
         part def Voiture;
         part def VoitureElectrique :> Voiture;
@@ -21,7 +19,6 @@ package sosyValetUseCases {
         actor conducteur:Conducteur ::> utilisateur;
         actor exploitant:ExploitantParking ::> utilisateur;
  
-        /* Phase 1 : Préparer sa venue */
         package phase1_PreparerSaVenue {
             use case consulterPlacesLibres {
                 ref actor utilisateur;
@@ -40,7 +37,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 2 : Arriver et choisir le mode */
         package phase2_ArriverEtChoisirLeMode {
             use case entrerDansLeParking {
                 ref actor conducteur;
@@ -53,7 +49,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 3a : Se garer soi-même (mode libre) */
         package phase3a_SeGarerSoiMeme {
             use case suivreLeGuidage {
                 ref actor conducteur;
@@ -63,7 +58,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 3b : Déposer son véhicule (mode voiturier, F1) */
         package phase3b_DeposerSonVehicule {
             use case arreterVehiculeDansLeBox {
                 ref actor conducteur;
@@ -76,7 +70,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 4 : Stationner et recharger (F2) */
         package phase4_StationnerEtRecharger {
             use case suivreEtatDuVehicule {
                 ref actor conducteur;
@@ -89,7 +82,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 5 : Retourner à pied à son véhicule */
         package phase5_RetournerAPiedAuVehicule {
             use case localiserSonVehicule {
                 ref actor conducteur;
@@ -102,7 +94,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 6 : Récupérer son véhicule et sortir */
         package phase6_RecupererEtSortir {
             use case rejoindreSaPlaceEtSortir {
                 ref actor conducteur;
@@ -115,7 +106,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 7 : Superviser le parking */
         package phase7_SuperviserLeParking {
             use case consulterTableauDeBord {
                 ref actor exploitant;
@@ -128,7 +118,6 @@ package sosyValetUseCases {
             }
         }
  
-        /* Phase 8 : Entretenir le système */
         package phase8_EntretenirLeSysteme {
             use case nettoyerOuRemplacerCapteurs {
                 ref actor exploitant;

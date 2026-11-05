@@ -1,7 +1,6 @@
 package sosyValetExigences {
     private import ScalarValues::Boolean;
     package parts {
-        /* système étudié */
         part def SosyValet;
     }
  
@@ -13,7 +12,6 @@ package sosyValetExigences {
                    ou confient leur véhicule au voiturier automatique, avec recharge partagée. */
         }
  
-        /* ===================== Fonctions ===================== */
         requirement fonctions :> specificationsSosyValet {
             doc /* le système doit réaliser les fonctions attendues par les conducteurs et l'exploitant. */
         }
@@ -45,7 +43,6 @@ package sosyValetExigences {
             doc /* l'exploitant doit pouvoir suivre l'occupation, les véhicules, les engins, les recharges et l'historique. */
         }
  
-        /* ============== Interactions matérielles ============== */
         requirement interactionsMaterielles :> specificationsSosyValet {
             doc /* le système doit pouvoir interagir avec les véhicules, les personnes et son environnement. */
         }
@@ -73,8 +70,7 @@ package sosyValetExigences {
         requirement maintenanceFacilitee :> interactionsMaterielles {
             doc /* les capteurs doivent être remplaçables sans travaux et les engins doivent s'autodiagnostiquer. */
         }
- 
-        /* ===================== Contraintes ===================== */
+
         requirement contraintes :> specificationsSosyValet {
             doc /* le système doit respecter les contraintes de sécurité, de normes, de performance et de coût. */
         }

@@ -1,5 +1,5 @@
-package sosyValetArriverModeSequence {
-    private import sosyValetArriverModeSequence::parts::*;
+package spi{
+    private import spi::parts::*;
     package sequences {
         occurrence arriverEtChoisirLeMode {
             part conducteur: Conducteur;
