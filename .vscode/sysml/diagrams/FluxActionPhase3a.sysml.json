@@ -1,0 +1,605 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "spi::suivreLeGuidageEtSeGarer": {
+      "afv": {
+        "layout": {
+          "spi::suivreLeGuidageEtSeGarer": {
+            "x": 32,
+            "y": 1210,
+            "parentKey": null,
+            "w": 586,
+            "h": 1572,
+            "placedByHand": true
+          },
+          "__initial__": {
+            "x": 171,
+            "y": 54,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 12,
+            "h": 12
+          },
+          "spi::suivreLeGuidageEtSeGarer::selectionnerPlaceLibre": {
+            "x": 91.5,
+            "y": 148,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 171,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::calculerItineraire": {
+            "x": 93,
+            "y": 418,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 168,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::afficherItineraire": {
+            "x": 93,
+            "y": 558,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 168,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::suivreItineraire": {
+            "x": 93,
+            "y": 698,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 168,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::verifierPlace": {
+            "x": 93,
+            "y": 838,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 168,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::attribuerNouvellePlace": {
+            "x": 353,
+            "y": 1108,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 171,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::garerVehicule": {
+            "x": 64,
+            "y": 1108,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 168,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::confirmerStationnement": {
+            "x": 62.5,
+            "y": 1248,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 171,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::terminerGuidage": {
+            "x": 64,
+            "y": 1388,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 168,
+            "h": 58
+          },
+          "spi::suivreLeGuidageEtSeGarer::merge0": {
+            "x": 136,
+            "y": 288,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 82,
+            "h": 48
+          },
+          "spi::suivreLeGuidageEtSeGarer::decide0": {
+            "x": 117,
+            "y": 978,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 92,
+            "h": 48
+          },
+          "__final__": {
+            "x": 140,
+            "y": 1528,
+            "parentKey": "spi::suivreLeGuidageEtSeGarer",
+            "w": 16,
+            "h": 16
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "succession:__initial__->spi::suivreLeGuidageEtSeGarer::selectionnerPlaceLibre:[guidageDemande]": {
+            "caption": {
+              "x": 149,
+              "y": 1289,
+              "width": 120,
+              "height": 18,
+              "lines": [
+                "[guidageDemande]"
+              ],
+              "text": "[guidageDemande]",
+              "source": {
+                "x": 209,
+                "y": 1276
+              },
+              "target": {
+                "x": 209,
+                "y": 1358
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,1276 L 209,1358",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 1276
+            },
+            "targetPoint": {
+              "x": 209,
+              "y": 1358
+            },
+            "label": {
+              "x": 209,
+              "y": 1317
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 1276
+              },
+              {
+                "x": 209,
+                "y": 1358
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::selectionnerPlaceLibre->spi::suivreLeGuidageEtSeGarer::merge0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,1416 L 209,1498",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 1416
+            },
+            "targetPoint": {
+              "x": 209,
+              "y": 1498
+            },
+            "label": {
+              "x": 209,
+              "y": 1457
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 1416
+              },
+              {
+                "x": 209,
+                "y": 1498
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::merge0->spi::suivreLeGuidageEtSeGarer::calculerItineraire": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,1546 L 209,1628",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 1546
+            },
+            "targetPoint": {
+              "x": 209,
+              "y": 1628
+            },
+            "label": {
+              "x": 209,
+              "y": 1587
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 1546
+              },
+              {
+                "x": 209,
+                "y": 1628
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::calculerItineraire->spi::suivreLeGuidageEtSeGarer::afficherItineraire": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,1686 L 209,1768",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 1686
+            },
+            "targetPoint": {
+              "x": 209,
+              "y": 1768
+            },
+            "label": {
+              "x": 209,
+              "y": 1727
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 1686
+              },
+              {
+                "x": 209,
+                "y": 1768
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::afficherItineraire->spi::suivreLeGuidageEtSeGarer::suivreItineraire": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,1826 L 209,1908",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 1826
+            },
+            "targetPoint": {
+              "x": 209,
+              "y": 1908
+            },
+            "label": {
+              "x": 209,
+              "y": 1867
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 1826
+              },
+              {
+                "x": 209,
+                "y": 1908
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::suivreItineraire->spi::suivreLeGuidageEtSeGarer::verifierPlace": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,1966 L 209,2048",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 1966
+            },
+            "targetPoint": {
+              "x": 209,
+              "y": 2048
+            },
+            "label": {
+              "x": 209,
+              "y": 2007
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 1966
+              },
+              {
+                "x": 209,
+                "y": 2048
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::verifierPlace->spi::suivreLeGuidageEtSeGarer::decide0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 209,2106 L 209,2163 Q 209,2170 202,2170 L 202,2170 Q 195,2170 195,2177 L 195,2188",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 209,
+              "y": 2106
+            },
+            "targetPoint": {
+              "x": 195,
+              "y": 2188
+            },
+            "label": {
+              "x": 209,
+              "y": 2154
+            },
+            "points": [
+              {
+                "x": 209,
+                "y": 2106
+              },
+              {
+                "x": 209,
+                "y": 2170
+              },
+              {
+                "x": 195,
+                "y": 2170
+              },
+              {
+                "x": 195,
+                "y": 2188
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::decide0->spi::suivreLeGuidageEtSeGarer::garerVehicule:[placeToujoursLibre]": {
+            "caption": {
+              "x": 123,
+              "y": 2249,
+              "width": 144,
+              "height": 18,
+              "lines": [
+                "[placeToujoursLibre]"
+              ],
+              "text": "[placeToujoursLibre]",
+              "source": {
+                "x": 195,
+                "y": 2236
+              },
+              "target": {
+                "x": 180,
+                "y": 2318
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 195,2236 L 195,2292.5 Q 195,2300 187.5,2300 L 187.5,2300 Q 180,2300 180,2307.5 L 180,2318",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 195,
+              "y": 2236
+            },
+            "targetPoint": {
+              "x": 180,
+              "y": 2318
+            },
+            "label": {
+              "x": 195,
+              "y": 2284.5
+            },
+            "points": [
+              {
+                "x": 195,
+                "y": 2236
+              },
+              {
+                "x": 195,
+                "y": 2300
+              },
+              {
+                "x": 180,
+                "y": 2300
+              },
+              {
+                "x": 180,
+                "y": 2318
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::decide0->spi::suivreLeGuidageEtSeGarer::attribuerNouvellePlace:[placePrise]": {
+            "caption": {
+              "x": 245.10000000000002,
+              "y": 2203,
+              "width": 95,
+              "height": 18,
+              "lines": [
+                "[placePrise]"
+              ],
+              "text": "[placePrise]",
+              "source": {
+                "x": 241,
+                "y": 2212
+              },
+              "target": {
+                "x": 470.5,
+                "y": 2318
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "top",
+            "path": "M 241,2212 L 462.5,2212 Q 470.5,2212 470.5,2220 L 470.5,2318",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 241,
+              "y": 2212
+            },
+            "targetPoint": {
+              "x": 470.5,
+              "y": 2318
+            },
+            "label": {
+              "x": 408.75,
+              "y": 2212
+            },
+            "points": [
+              {
+                "x": 241,
+                "y": 2212
+              },
+              {
+                "x": 470.5,
+                "y": 2212
+              },
+              {
+                "x": 470.5,
+                "y": 2318
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::attribuerNouvellePlace->spi::suivreLeGuidageEtSeGarer::merge0": {
+            "sourceHandle": "right",
+            "targetHandle": "right",
+            "path": "M 556,2347 L 566,2347 Q 574,2347 574,2339 L 574,1530 Q 574,1522 566,1522 L 250,1522",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 556,
+              "y": 2347
+            },
+            "targetPoint": {
+              "x": 250,
+              "y": 1522
+            },
+            "label": {
+              "x": 574,
+              "y": 1781.5
+            },
+            "points": [
+              {
+                "x": 556,
+                "y": 2347
+              },
+              {
+                "x": 574,
+                "y": 2347
+              },
+              {
+                "x": 574,
+                "y": 1522
+              },
+              {
+                "x": 250,
+                "y": 1522
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::garerVehicule->spi::suivreLeGuidageEtSeGarer::confirmerStationnement:[occupationDetectee]": {
+            "caption": {
+              "x": 108,
+              "y": 2389,
+              "width": 144,
+              "height": 18,
+              "lines": [
+                "[occupationDetectee]"
+              ],
+              "text": "[occupationDetectee]",
+              "source": {
+                "x": 180,
+                "y": 2376
+              },
+              "target": {
+                "x": 180,
+                "y": 2458
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 180,2376 L 180,2458",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 180,
+              "y": 2376
+            },
+            "targetPoint": {
+              "x": 180,
+              "y": 2458
+            },
+            "label": {
+              "x": 180,
+              "y": 2417
+            },
+            "points": [
+              {
+                "x": 180,
+                "y": 2376
+              },
+              {
+                "x": 180,
+                "y": 2458
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::confirmerStationnement->spi::suivreLeGuidageEtSeGarer::terminerGuidage": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 180,2516 L 180,2598",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 180,
+              "y": 2516
+            },
+            "targetPoint": {
+              "x": 180,
+              "y": 2598
+            },
+            "label": {
+              "x": 180,
+              "y": 2557
+            },
+            "points": [
+              {
+                "x": 180,
+                "y": 2516
+              },
+              {
+                "x": 180,
+                "y": 2598
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::suivreLeGuidageEtSeGarer::terminerGuidage->__final__": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 180,2656 L 180,2738",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 180,
+              "y": 2656
+            },
+            "targetPoint": {
+              "x": 180,
+              "y": 2738
+            },
+            "label": {
+              "x": 180,
+              "y": 2697
+            },
+            "points": [
+              {
+                "x": 180,
+                "y": 2656
+              },
+              {
+                "x": 180,
+                "y": 2738
+              }
+            ],
+            "corner": 8
+          }
+        }
+      }
+    }
+  }
+}

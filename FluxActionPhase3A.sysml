@@ -1,9 +1,5 @@
 package spi {
 	action suivreLeGuidageEtSeGarer{
-		attribute guidageDemande : Boolean;
-		attribute placeToujoursLibre : Boolean;
-		attribute placePrise : Boolean;
-		attribute occupationDetectee : Boolean;
 		action selectionnerPlaceLibre;
 		action calculerItineraire;
 		action afficherItineraire;

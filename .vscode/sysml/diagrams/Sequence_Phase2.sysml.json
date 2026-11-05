@@ -1,0 +1,5 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {"spi::sequences":{"gv":{"gvViews":{"group":{"expandedElements":["spi::sequences::arriverEtChoisirLeMode"],"layout":{"spi::sequences::arriverEtChoisirLeMode":{"x":-112,"y":-25,"parentKey":null,"w":270,"h":370,"collapsedW":171,"collapsedH":114,"placedByHand":true},"spi::sequences::arriverEtChoisirLeMode::conducteur":{"x":22,"y":50,"parentKey":"spi::sequences::arriverEtChoisirLeMode","collapsedW":104,"collapsedH":58},"spi::sequences::arriverEtChoisirLeMode::application":{"x":22,"y":130,"parentKey":"spi::sequences::arriverEtChoisirLeMode","collapsedW":104,"collapsedH":58},"spi::sequences::arriverEtChoisirLeMode::serveur":{"x":22,"y":210,"parentKey":"spi::sequences::arriverEtChoisirLeMode","collapsedW":104,"collapsedH":58},"spi::sequences::arriverEtChoisirLeMode::capteurEntree":{"x":22,"y":290,"parentKey":"spi::sequences::arriverEtChoisirLeMode","collapsedW":109,"collapsedH":58}},"ports":{},"edgeRoutes":{},"edgeAnchors":{},"edgeGeometry":{}}}}}}
+}

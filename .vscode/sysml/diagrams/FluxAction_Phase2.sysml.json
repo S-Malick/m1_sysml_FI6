@@ -1,0 +1,459 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "spi::arriverEtChoisirLeMode": {
+      "afv": {
+        "layout": {
+          "spi::arriverEtChoisirLeMode": {
+            "x": -107.27703166078862,
+            "y": 287.5941299660218,
+            "parentKey": null,
+            "w": 397,
+            "h": 1155,
+            "locked": true,
+            "placedByHand": true
+          },
+          "__initial__": {
+            "x": 195,
+            "y": 44,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 12,
+            "h": 12
+          },
+          "spi::arriverEtChoisirLeMode::detecterVehicule": {
+            "x": 117,
+            "y": 138,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 168,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::afficherMessageBienvenue": {
+            "x": 109,
+            "y": 278,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 184,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::proposerModesStationnement": {
+            "x": 102,
+            "y": 418,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 198,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::selectionnerMode": {
+            "x": 117,
+            "y": 558,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 168,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::enregistrerModeChoisi": {
+            "x": 117,
+            "y": 828,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 168,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::terminerArrivee": {
+            "x": 117,
+            "y": 968,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 168,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::decide0": {
+            "x": 155,
+            "y": 698,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 92,
+            "h": 48
+          },
+          "__final__": {
+            "x": 193,
+            "y": 1108,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 16,
+            "h": 16
+          },
+          "spi::arriverEtChoisirLeMode::vehiculeArrive": {
+            "x": 22,
+            "y": 2124,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 184,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::modeAutomatique": {
+            "x": 230,
+            "y": 2124,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 191,
+            "h": 58
+          },
+          "spi::arriverEtChoisirLeMode::modeManuel": {
+            "x": 22,
+            "y": 2264,
+            "parentKey": "spi::arriverEtChoisirLeMode",
+            "w": 168,
+            "h": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "succession:__initial__->spi::arriverEtChoisirLeMode::detecterVehicule:[vehiculeArrive]": {
+            "caption": {
+              "x": 33.723,
+              "y": 356.59,
+              "width": 120,
+              "height": 18,
+              "lines": [
+                "[vehiculeArrive]"
+              ],
+              "text": "[vehiculeArrive]",
+              "source": {
+                "x": 93.72296833921138,
+                "y": 343.5941299660218
+              },
+              "target": {
+                "x": 93.72296833921138,
+                "y": 425.5941299660218
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,343.594 L 93.723,425.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 343.5941299660218
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 425.5941299660218
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 384.5941299660218
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 343.5941299660218
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 425.5941299660218
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::detecterVehicule->spi::arriverEtChoisirLeMode::afficherMessageBienvenue": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,483.594 L 93.723,565.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 483.5941299660218
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 565.5941299660218
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 524.5941299660218
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 483.5941299660218
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 565.5941299660218
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::afficherMessageBienvenue->spi::arriverEtChoisirLeMode::proposerModesStationnement": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,623.594 L 93.723,705.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 623.5941299660218
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 705.5941299660218
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 664.5941299660218
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 623.5941299660218
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 705.5941299660218
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::proposerModesStationnement->spi::arriverEtChoisirLeMode::selectionnerMode": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,763.594 L 93.723,845.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 763.5941299660218
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 845.5941299660218
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 804.5941299660218
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 763.5941299660218
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 845.5941299660218
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::selectionnerMode->spi::arriverEtChoisirLeMode::decide0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,903.594 L 93.723,985.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 903.5941299660218
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 985.5941299660218
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 944.5941299660218
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 903.5941299660218
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 985.5941299660218
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::decide0->spi::arriverEtChoisirLeMode::enregistrerModeChoisi:[modeAutomatique]": {
+            "caption": {
+              "x": 138.823,
+              "y": 1057.310513245255,
+              "width": 126,
+              "height": 18,
+              "lines": [
+                "[modeAutomatique]"
+              ],
+              "text": "[modeAutomatique]",
+              "source": {
+                "x": 139.72296833921138,
+                "y": 1009.5941299660218
+              },
+              "target": {
+                "x": 121.77896833921139,
+                "y": 1115.5941299660217
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "top:0.667",
+            "path": "M 139.723,1009.594 L 149.723,1009.594 Q 157.723,1009.594 157.723,1017.594 L 157.723,1089.594 Q 157.723,1097.594 149.723,1097.594 L 129.779,1097.594 Q 121.779,1097.594 121.779,1105.594 L 121.779,1115.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 139.72296833921138,
+              "y": 1009.5941299660218
+            },
+            "targetPoint": {
+              "x": 121.77896833921139,
+              "y": 1115.5941299660217
+            },
+            "label": {
+              "x": 157.72296833921138,
+              "y": 1071.5661299660217
+            },
+            "points": [
+              {
+                "x": 139.72296833921138,
+                "y": 1009.5941299660218
+              },
+              {
+                "x": 157.72296833921138,
+                "y": 1009.5941299660218
+              },
+              {
+                "x": 157.72296833921138,
+                "y": 1097.5941299660217
+              },
+              {
+                "x": 121.77896833921139,
+                "y": 1097.5941299660217
+              },
+              {
+                "x": 121.77896833921139,
+                "y": 1115.5941299660217
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::decide0->spi::arriverEtChoisirLeMode::enregistrerModeChoisi:[modeManuel]": {
+            "caption": {
+              "x": 54.9399735094903,
+              "y": 1038.294,
+              "width": 95,
+              "height": 18,
+              "lines": [
+                "[modeManuel]"
+              ],
+              "text": "[modeManuel]",
+              "source": {
+                "x": 139.72296833921138,
+                "y": 1009.5941299660218
+              },
+              "target": {
+                "x": 121.77896833921139,
+                "y": 1115.5941299660217
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "top:0.667",
+            "path": "M 139.723,1009.594 L 149.723,1009.594 Q 157.723,1009.594 157.723,1017.594 L 157.723,1045.594 Q 157.723,1053.594 149.723,1053.594 L 129.779,1053.594 Q 121.779,1053.594 121.779,1061.594 L 121.779,1115.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 139.72296833921138,
+              "y": 1009.5941299660218
+            },
+            "targetPoint": {
+              "x": 121.77896833921139,
+              "y": 1115.5941299660217
+            },
+            "label": {
+              "x": 139.75096833921134,
+              "y": 1053.5941299660217
+            },
+            "points": [
+              {
+                "x": 139.72296833921138,
+                "y": 1009.5941299660218
+              },
+              {
+                "x": 157.72296833921138,
+                "y": 1009.5941299660218
+              },
+              {
+                "x": 157.72296833921138,
+                "y": 1053.5941299660217
+              },
+              {
+                "x": 121.77896833921139,
+                "y": 1053.5941299660217
+              },
+              {
+                "x": 121.77896833921139,
+                "y": 1115.5941299660217
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::enregistrerModeChoisi->spi::arriverEtChoisirLeMode::terminerArrivee": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,1173.594 L 93.723,1255.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 1173.5941299660217
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 1255.5941299660217
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 1214.5941299660217
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 1173.5941299660217
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 1255.5941299660217
+              }
+            ],
+            "corner": 8
+          },
+          "succession:spi::arriverEtChoisirLeMode::terminerArrivee->__final__": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 93.723,1313.594 L 93.723,1395.594",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 93.72296833921138,
+              "y": 1313.5941299660217
+            },
+            "targetPoint": {
+              "x": 93.72296833921138,
+              "y": 1395.5941299660217
+            },
+            "label": {
+              "x": 93.72296833921138,
+              "y": 1354.5941299660217
+            },
+            "points": [
+              {
+                "x": 93.72296833921138,
+                "y": 1313.5941299660217
+              },
+              {
+                "x": 93.72296833921138,
+                "y": 1395.5941299660217
+              }
+            ],
+            "corner": 8
+          }
+        },
+        "lineStyle": "orthogonal"
+      }
+    }
+  }
+}
